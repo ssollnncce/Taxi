@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Exo2';
+    src: url("fonts/Exo2-VariableFont_wght.woff") format("woff");
+    src: url("fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+}
+.page{
+    background-color: #fafafa;
+    font-family: "Exo2";
+    align-items: center;
+    background-size: 67%;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.taxi-logo{
+    background-color: black;
+    border-radius: 16px;
+    height: 54px;
+    width: 83px;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 23px;
+}
+.taxi-logo__link{
+    color: #fafafa;
+    font-size: 18px;
+    display: inline-block;
+    transform: translateY(70%)
+}
+.nav-frame{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 280px;
+    margin-top: 23px;
+    margin-left: 189px;
+}
+.phone{
+    text-align: center;
+    border-radius: 16px;
+    background-color: #f3f3f3;
+    width: 238px;
+    height: 54px;
+}
+.nav-frame__link{
+    transform: translateY(30%);
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.last{
+    transform: translateY(30%);
+    margin-right: 48px;
+}
+.phone__link{
+    display: inline-block;
+    transform: translateY(70%);
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+} 
+.main-information{
+    width: 1920px;
+    height: 509px;
+    margin-top: 120px;
+    background-image: url(images/imgonline-com-ua-Resize-9HPn3WjirPHAXBvr.jpg);
+    background-repeat: no-repeat;
+}
+.main-information-banner{
+    margin-left: 280px;
+    width: 473px;
+    height: 418px;
+    transform: translateY(-25%);
+    background-color: #fafafa;
+}
+.main-information-banner-text-base{
+    font-size: 20px;
+}
+.main-information-banner-button{
+    width: 251px;
+    height: 70px;
+    background-color: #FF8400;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    border-radius: 16px;
+    text-align: center;
+}
+.main-information-banner-button__text{
+    color: #fafafa;
+    display: inline-block;
+    transform: translateY(120%);
+}
+.main-information-banner-yandex{
+    border-radius: 16px;
+    background-color: #fff;
+    width: 302PX;
+    height: 76PX;
+    display: flex;
+}
+.main-information-banner-yandex__photo{
+    background-image: url(images/imgonline-com-ua-Resize-TcHXRuktCX.jpg);
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.main-information-banner-yandex__text{
+    font-size: 18px;
+}
+.center{
+    transform: translateY(30%);
+}
+.content-main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+.information-text-header{
+    font-size: 52px;
+}
+.center-text{
+    align-items: center;
+    position: absolute;
+}
+.container-about{
+    width: 1840px;
+    height: 1760px;
+    display: flex;
+    position: relative;
+    top: 160px;
+}
+.container-mini{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    border-radius: 36px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.size_m{
+    width: 908px;
+    height: 800px;
+    background-color: #fff;
+}
