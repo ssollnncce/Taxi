@@ -77,7 +77,7 @@
     transform: translateY(-25%);
     background-color: #fafafa;
 }
-.main-information-banner-text-base{
+.base-text{
     font-size: 20px;
 }
 .main-information-banner-button{
@@ -133,7 +133,6 @@
 .container-about{
     width: 1840px;
     height: 1760px;
-    display: flex;
     position: relative;
     top: 160px;
 }
@@ -151,4 +150,97 @@
     width: 908px;
     height: 800px;
     background-color: #fff;
+}
+.information-text{
+    font-size: 44px;
+    width: 400px;
+    height: auto;
+}
+.text-size-m{
+    width: 548px;
+    height: 84px;
+}
+.header-banner{
+    display: flex;
+}
+.banner-content{
+    margin-left: 48px;
+}
+.container-size_l{
+    width: 1840px;
+    height: 800px;
+    background-color: #F48514;
+    border-radius: 36px;
+    display: flex;
+}
+.photo-number{
+    width: 116px;
+    height: 65px;
+    background-repeat: no-repeat;
+    margin-top: 63px;
+    margin-right: 24px;
+}
+.photo-1{
+    background-image: url(images/01..svg);
+}
+.photo-2{
+    background-image: url(images/02..svg);
+}
+.photo-3{
+    background-image: url(images/03..svg);
+    margin-left: 48px;
+}
+.illustration-m{
+    width: 812px;
+    height: 465px;
+    position: relative;
+    top: 10px;
+}
+.illustration-l{
+    width: 886px;
+    height: 704px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 110px;
+}
+.illustratiom-1{
+    background-image: url(images/1.png);
+}
+.illustratiom-2{
+    background-image: url(images/2.png);
+}
+.illustratiom-3{
+    background-image: url(images/3.png);
+}
+.container-size_l{
+    position: relative;
+    top: 24px;
+    display: flex;
+}
+.container-ll{
+    width: 920px;
+}
+.height-ll{
+    height: 460px;
+}
+.container-photo-3{
+    height: 300px;
+}
+.text-l{
+    color: white;
+    margin-top: 16px;
+}
+.main-information-banner-button-white{
+    width: 251px;
+    height: 70px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    border-radius: 16px;
+    text-align: center;
+}
+.main-information-banner-button__text-orange{
+    color: black;
+    display: inline-block;
+    transform: translateY(120%);
 }
