@@ -248,3 +248,152 @@ body{
     background-repeat: no-repeat;
     margin-top: 80px;
 }
+.timeline{
+    width: 1926px;
+    height: 555px;
+    margin-top: 99px;
+    position: relative;
+}
+.line-image{
+    position: absolute;
+    z-index: 1;
+}
+.text-circle{
+    font-size: 44px;
+    z-index: 1;
+}
+.circle-1{
+    position: absolute;
+    left: 160px;
+    bottom: 80px;
+    z-index: 1;
+    animation: done;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    width: 126px;
+    height: 126px;
+    transition-timing-function: ease-in-out;
+}
+.circle-1-d{
+    background-image: url(images/Frame512581.svg);
+    position: absolute;
+    left: 160px;
+    bottom: 80px;
+    width: 126px;
+    height: 126px;
+    visibility: hidden;
+    animation: hid;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition-timing-function: ease-in-out;
+}
+.circle-2{
+    position: absolute;
+    left: 653px;
+    bottom: 152px;
+    z-index: 1;
+    animation: done;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease-in-out;
+}
+.circle-2-d{
+    background-image: url(images/Frame512581.svg);
+    position: absolute;
+    left: 653px;
+    bottom: 152px;
+    width: 126px;
+    height: 126px;
+    visibility: hidden;
+    animation: hid;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition-timing-function: ease-in-out;
+}
+.circle-3{
+    position: absolute;
+    left: 1127px;
+    bottom: 256px;
+    z-index: 1;
+}
+.circle-4{
+    position: absolute;
+    left: 1529px;
+    bottom: 340px;
+    z-index: 1;
+}
+.text-p{
+    width: 370px;
+    height: 80px;
+    font-size: 36px;
+}
+.req{
+    position: relative;
+    top: 465px;
+    left: 275px;
+    animation: changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+.call{
+    position: relative;
+    top: 70px;
+    left: 450px;
+    animation: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+.doc{
+    position: relative;
+    top: 150px;
+    left: 1063px;
+}
+.done{
+    position: relative;
+    bottom: 270px;
+    left: 1361px;
+}
+@keyframes done{
+    0%{
+        visibility: visible;
+    }
+    30%{
+        opacity: 0.3;
+        visibility: hidden;
+    }
+    60%{
+        opacity: 0.6;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: hidden;
+    }
+}
+@keyframes hid{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+        z-index: 1;
+    }
+}
+@keyframes changeColor{
+    0%{
+        color: black;
+    }
+    100%{
+        color: orange;
+    }
+}
