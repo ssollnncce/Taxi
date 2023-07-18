@@ -3,6 +3,9 @@
     src: url("fonts/Exo2-VariableFont_wght.woff") format("woff");
     src: url("fonts/Exo2-VariableFont_wght.ttf") format("truetype");
 }
+.employment div{
+    
+}
 body{
     background-color: #fafafa;
     font-family: "Exo2";
@@ -363,6 +366,132 @@ body{
     bottom: 270px;
     left: 1361px;
 }
+.line{
+    animation: changeColorStroke 5s;
+}
+.block-group{
+    width: 1279px;
+    height: 872px;
+}
+.level-l{
+    height: 336px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.level-s{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.panel{
+    border-radius: 36px;
+}
+.panel-l{
+    width: 725px;
+    height: 100%;
+}
+.comission{
+    margin-left: 187px;
+    background-color: #fff;
+}
+.order{
+    font-size: 36px;
+    width: 600px;
+    margin: 48px;
+}
+.sale{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    margin-top: 155px;
+
+}
+.sale-text{
+    width: 295px;
+    height: 80px;
+    color: white;
+    font-size: 36px;
+}
+.panel-xs{
+    width: 343px;
+    height: 176px;
+}
+.panel-xl{
+    width: 701px;
+    height: 312px;
+}
+.cost{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.cost-text{
+    color: white;
+    width: 629px;
+    height: 216px;
+    font-size: 36px;
+}
+.panel-m{
+    width: 504px;
+    height: 336px;
+}
+.pluses{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    margin-top: 38px;
+}
+.pluses-text{
+    width: 408px;
+    height: 240px;
+    font-size: 36px;
+}
+.panel-s{
+    width: 709px;
+    height: 176px;
+}
+.taxi{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.taxi-text{
+    font-size: 36px;
+    height: 80px;
+    width: 529px;
+}
+.taxi-logo-m{
+    height: 60px;
+    width: 60px;
+    margin-right: 24px;
+}
+.panel-mini{
+    width: 399px;
+    height: 136px;
+}
+.partner{
+    background-color: #FF8400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    margin-top: 50px;
+}
+.partner-text{
+    font-size: 36px;
+    color: white;
+    width: 303px;
+    height: 40px;
+}
 @keyframes done{
     0%{
         visibility: visible;
@@ -395,5 +524,13 @@ body{
     }
     100%{
         color: orange;
+    }
+}
+@keyframes changeColorStroke{
+    0%{
+        stroke: black;
+    }
+    100%{
+        stroke: linear-gradient(to right, orange 0%, orange 50%, black 50%, black 100%);
     }
 }
