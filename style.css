@@ -3,8 +3,7 @@
     src: url("fonts/Exo2-VariableFont_wght.woff") format("woff");
     src: url("fonts/Exo2-VariableFont_wght.ttf") format("truetype");
 }
-.employment div{
-    
+.contest div{
 }
 body{
     background-color: #fafafa;
@@ -491,6 +490,355 @@ body{
     color: white;
     width: 303px;
     height: 40px;
+}
+.presents-banner{
+    width: 1920px;
+    height: 664px;
+    background-color: #F9F7F6;
+    display: flex;
+}
+.presents-banner-chapter{
+    height: 100%;
+    width: 640px;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.join-text{
+    height: 168px;
+    width: 484px;
+    font-size: 52px;
+}
+.join-button{
+    border-radius: 16px;
+    height: 70px;
+    width: 331px;
+    background-color: #FF8400;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.join-link{
+    font-size: 18px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.presents-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people{
+    background-color: #FFF;
+    width: 435px;
+    height: 552px;
+    border-radius: 36px;
+}
+.people-list-h-banner{
+    display: flex;
+    justify-content: center;
+}
+.people-list-banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.people-list-h{
+    font-size: 36px;
+    width: 387px;
+    height: 80px;
+    text-align: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item:not(:first-child){
+    margin-top: 24px;
+}
+.item-describe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    height: 48px;
+}
+.item-describe-text{
+    font-size: 18px;
+}
+.item-describe-untext{
+    margin-top: 2px;
+    font-size: 18px;
+    opacity: 0.6;
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winner-banner{
+    width: 387px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.winner-banner-text{
+    text-align: center;
+}
+.photo-banner{
+    width: 265px;
+    height: 254px;
+}
+.photo-winner{
+    width: 100%;
+    height: 100%;
+    background: url(images/Ellipsewinner.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.ellipse-orange{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 102px;
+    height: 102px;
+    z-index: 1;
+    background-color: #F48514;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.image-phone{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.discribe-winner{
+    width: 117px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.discribe-winner-text{
+    font-size: 18px;
+}
+.discribe-winner-untext{
+    font-size: 18px;
+}
+.salary{
+    display: flex;
+    justify-content: center;
+    align-items: ceneter;
+}
+.salary-banner{
+    width: 1490px;
+    height: 692px;
+    display: flex;
+}
+.salary-banner-text{
+    width: 516px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.salary-banner-text-h{
+    font-size: 52px;
+    width: 540px;
+    height: 168px;
+    margin-left: 50px;
+}
+.salary-banner-text-content{
+    width: 500px;
+    height: 200px;
+    margin-top: 32px;
+}
+.salary-banner-text-content-text{
+    width: 396px;
+    height: 56px;
+    font-size: 20px;
+}
+.salary-banner-text-content-list{
+    font-size: 20px;
+}
+.salary-banner-calculator{
+    width: 810px;
+    height: 692px;
+    margin-left: 164px;
+    border-radius: 36px;
+    background-color: #FFF;
+}
+.salary-banner-calculator-content{
+    margin: 48px;
+    width: 714px;
+    height: 596px;
+}
+.salary-banner-calculator-content-text{
+    font-size: 20px;
+    margin-top: 24px;
+}
+.slider{
+    margin-top: 24px;
+    width: 714px;
+    height: 84px;
+    position: relative;
+}
+.slider-output-text{
+    font-size: 36px;
+}
+.slider-output{
+    display: flex;
+}
+.slider-output-mean{
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.slider-input{
+    margin-top: 22px;
+    width: 100%;
+    height: 8px;
+    -webkit-appearance: none;
+    background: rgb(255, 255, 255) 60%;
+}
+.slider-input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 36px;
+    height: 36px;
+    background-color:  #00000000;
+    border-radius: 50px;
+    border: 10px solid #FF8400;
+    cursor: pointer;
+}
+.slider-output-mean-d{
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.slider-input-d{
+    margin-top: 22px;
+    width: 100%;
+    height: 8px;
+    -webkit-appearance: none;
+    background: rgb(255, 255, 255) 60%;
+}
+.slider-input-d::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 36px;
+    height: 36px;
+    background-color:  #00000000;
+    border-radius: 50px;
+    border: 10px solid #FF8400;
+    cursor: pointer;
+}
+.slider-output-mean-l{
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.slider-input-l{
+    margin-top: 22px;
+    width: 100%;
+    height: 8px;
+    -webkit-appearance: none;
+    background: rgb(255, 255, 255) 60%;
+}
+.slider-input-l::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 36px;
+    height: 36px;
+    background-color:  #00000000;
+    border-radius: 50px;
+    border: 10px solid #FF8400;
+    cursor: pointer;
+}
+.salary-banner-cost{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.salary-cost{
+    font-size: 44px;
+}
+.main-information-banner-button-orange{
+    width: 251px;
+    height: 70px;
+    background-color: #FF8400;
+    margin-top: 24px;
+    border-radius: 16px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-information-banner-button__text-white{
+    color: white;
+}
+.salary-text{
+    opacity: 0.6;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.contest{
+    background-color: #F9F7F6;
+    width: 1920px;
+    height: 664px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-pig{
+    background: url(images/pig.png);
+    width: 908px;
+    height: 664px;
+}
+.contest-describe{
+    width: 712px;
+    height: 270px;
+}
+.contest-describe-text{
+    font-size: 52px;
+}
+.contest-container{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+.contest-join{
+    width: 310px;
+    height: 70px;
+    background-color: #FF8400;
+    border-radius: 16px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contest-join-text{
+    color: white;
+    font-size: 18px;
+}
+.contest-join-cond{
+    font-size: 18px;
+    margin-left: 24px;
 }
 @keyframes done{
     0%{

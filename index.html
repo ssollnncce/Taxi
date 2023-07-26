@@ -15,7 +15,7 @@
         <div class="nav-frame">
             <a class="nav-frame__link" href="#about">О таксопарке</a>
             <a class="nav-frame__link" href="#start-work">Начать работать</a>
-            <a class="nav-frame__link">Расчет зарплаты</a>
+            <a class="nav-frame__link" href="salary-chapter">Расчет зарплаты</a>
             <a class="nav-frame__link">Вопросы и ответы</a>
             <a class="nav-frame__link last">Контакты</a>
             <div class="phone">
@@ -174,6 +174,134 @@
                 </div>
             </div>
         </div>
+        <div class="presents chapter">
+            <div class="presents-banner">
+                <div class="presents-banner-chapter join">
+                    <h1 class="join-text">Участвуйте в розыгрыше ценных призов</h1>
+                    <div class="join-button">Участвовать в розыгрыше</div>
+                    <a class="join-link">Условия розыгрыша</a>
+                </div>
+                <div class="presents-banner-chapter presents-list">
+                    <div class="people">
+                        <div class="people-list-h-banner">
+                           <h1 class="people-list-h">Призы<br> в этом месяце</h1> 
+                        </div>
+                        <div class="people-list-banner">
+                            <ul class="people-list">
+                                <div class="item">
+                                   <img class="item-photo" src="images/Ellipse phone.png">
+                                   <div class="item-describe">
+                                      <b class="item-describe-text">Iphone 12 Pro</b>
+                                      <a class="item-describe-untext">128 ГБ</a>
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <img class="item-photo" src="images/Ellipse video.png">
+                                   <div class="item-describe">
+                                       <b class="item-describe-text">Видеорегистратор</b>
+                                       <a class="item-describe-untext">С умным ассистентом</a>
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <img class="item-photo" src="images/Ellipse light.png">
+                                   <div class="item-describe">
+                                      <b class="item-describe-text">Фары</b>
+                                      <a class="item-describe-untext">Универсальные</a>
+                                   </div>
+                               </div>
+                               <div class="item">
+                                   <img class="item-photo" src="images/Ellipse fuel.png">
+                                   <div class="item-describe">
+                                      <b class="item-describe-text">Бесплатные заправки</b>
+                                      <a class="item-describe-untext">Целую неделю</a>
+                                   </div>
+                               </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="presents-banner-chapter winner">
+                    <div class="winner-banner">
+                        <h1 class="winner-banner-text">Победитель<br> в прошлом месяце</h1>
+                        <div class="photo-banner">
+                            <div class="photo-winner">
+                                <div class="ellipse-orange">
+                                    <img class="image-phone" src="images/imagephone'.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="discribe-winner">
+                            <b class="discribe-winner-text">Иван И.</b>
+                            <a class="discribe-winner-untext">Iphone 12 Pro</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="salary chapter">
+            <div class="salary-banner">
+                <div class="salary-banner-text">
+                    <a class="salary-banner-text-h">Рассчитайте <br> свой примерный<br> заработок</a>
+                    <div class="salary-banner-text-content">
+                        <a class="salary-banner-text-content-text">
+                            Ваш заработок в месяц будет зависеть от следующих условий
+                        </a>
+                        <ul class="salary-banner-text-content-list">
+                            <li>как много дней в неделю и часов в день вы на линии</li>
+                            <li> тариф, на котором вы работаете — выше тариф, больше доход;</li>
+                            <li> бонусы от компании и чаевые от клиентов</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="salary-banner-calculator">
+                    <div class="salary-banner-calculator-content">
+                        <b class="salary-banner-calculator-content-text">Калькулятор</b>
+                        <div class="slider">
+                            <div class="slider-output">
+                                <b class="slider-output-text">Часов в день:</b>
+                                <output class="slider-output-mean" id="value">1</output>
+                            </div>
+                            <input class="slider-input" type="range" id="fader" min="1" max="12" value="1" step="1">
+                        </div>
+                        <div class="slider">
+                            <div class="slider-output">
+                                <b class="slider-output-text">Дней в неделю:</b>
+                                <output class="slider-output-mean-d" id="days">1</output>
+                            </div>
+                            <input class="slider-input-d" type="range" id="sldays" min="1" max="7" value="1" step="1">
+                        </div>
+                        <div class="slider">
+                            <div class="slider-output-l">
+                                <b class="slider-output-text">Расход бензина на 100 км:</b>
+                                <output class="slider-output-mean-l" id="litr">1</output>
+                            </div>
+                            <input class="slider-input-l" type="range" id="sllitr" min="1" max="20" value="1" step="1">
+                        </div>
+                        <div class="salary-banner-cost">
+                            <b class="salary-banner-calculator-content-text">Примерный заработок в месяц</b>
+                            <output class="salary-cost" id="salary">1000</output>
+                        </div>
+                        <div class="main-information-banner-button-orange">
+                            <a class="main-information-banner-button__text-white">Стать партнером</a>
+                        </div>
+                        <div class="salary-text">Гарантированный заработок от 600 руб в день* </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contest chapter">
+            <div class="image-pig"></div>
+            <div class="contest-describe">
+                <a class="contest-describe-text">Участвуйте в конкурсе <br>и станьте лучшим <br>водителем месяца</a>
+                <div class="contest-container">
+                    <div class="contest-join">
+                        <a class="contest-join-text">Участвовать в конкурсе</a>
+                    </div>
+                    <b class="contest-join-cond">Условия конкурса</b>
+                </div>
+            </div>
+        </div>
     </div> 
 </body>
+<script src="code.js"></script>
 </html>
