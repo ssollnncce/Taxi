@@ -15,9 +15,9 @@
         <div class="nav-frame">
             <a class="nav-frame__link" href="#about">О таксопарке</a>
             <a class="nav-frame__link" href="#start-work">Начать работать</a>
-            <a class="nav-frame__link" href="salary-chapter">Расчет зарплаты</a>
-            <a class="nav-frame__link">Вопросы и ответы</a>
-            <a class="nav-frame__link last">Контакты</a>
+            <a class="nav-frame__link" href="#salary-chapter">Расчет зарплаты</a>
+            <a class="nav-frame__link" href="#question">Вопросы и ответы</a>
+            <a class="nav-frame__link last" href="#contacts">Контакты</a>
             <div class="phone">
                 <a class="nav-frame__link phone__link">+7 (999) 123-45-69</a>
             </div>
@@ -238,7 +238,7 @@
                 </div>
             </div>
         </div>
-        <div class="salary chapter">
+        <div class="salary chapter" id="salary-chapter">
             <div class="salary-banner">
                 <div class="salary-banner-text">
                     <a class="salary-banner-text-h">Рассчитайте <br> свой примерный<br> заработок</a>
@@ -301,7 +301,158 @@
                 </div>
             </div>
         </div>
-    </div> 
+        <div class="yandex chapter">
+            <h1 class="information-text-header">Мы являемся официальным партнером<br> Яндекс.Такси</h1>
+            <div class="yandex-container">
+                <div class="yandex-container-past check-up">
+                    <a class="check-up-text">Что это значит?</a>
+                    <b class="check-up-basetext">Наш таксопарк прошел тащательную проверку Яндекс.Такси.<br> Мы помогаем водителям разобраться во всех тонкостях сервиса, не задерживаем оплату и следим за соблюдений  правил и требований.</b>
+                </div>
+                <div class="yandex-container-past photo">
+                    <img src="images/certificat.png">
+                </div>
+                <div class="yandex-container-past more-information">
+                    <b class="more-information-text">Узнайте больше</b>
+                    <a class="more-information-basetext">Узнайте больше о сертифицированных таксопарках<br> на сайте Яндекс.такси</a>
+                    <button class="more-information-button">
+                        <a class="more-information-button-text" href="https://taxi.yandex.ru/ru_ru/" target="_blank">Перейти на сайт</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="question chapter">
+            <h1 class="information-text-header" id="question">Ответы на вопросы</h1>
+            <div class="question-container">
+                <div class="question-container-part">
+                    <div class="question-item">
+                        <a class="question-item-text">Какой автомобиль подоходит для работы?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Какие требования к водителю?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Легальна ли ваша работа?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Какие условия для работы на авто таксопарка?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Какие требования к моему телефону? Как я буду подключен к таксопарку?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Могу ли я сам выбирать себе пассажира? Отказываться от пассажира? Есть ли штрафы за это?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                </div>
+                <div class="question-container-part">
+                    <div class="question-item">
+                        <a class="question-item-text">Как я получу оплату за работу?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Какое количество заказов я буду получать в день?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Какое количество заказов я буду получать в день?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Смогу ли подрабатывать у вас, имея основную работу?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Какие выгоды от долгосрочного сотрудничества я получу?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                    <div class="question-item">
+                        <a class="question-item-text">Кто будет нести ответственность за поломку предоставленного для работы авто?</a>
+                        <button class="question-item-button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback chapter">
+            <div class="feedback-part"></div>
+            <div class="feedback-part">
+                <div class="feedback-part-container">
+                    <div class="feedback-part-container-content">
+                        <a class="feedback-content-text">Оставляйте заявку на подключение к Яндекс.Такси</a>
+                        <div class="contact">
+                            <div class="name">
+                                <a class="name-text">Имя</a>
+                                <input class="name-input" type="text" placeholder="Введите имя" id="name">
+                            </div>
+                            <div class="name">
+                                <a class="name-text">Номер телефона</a>
+                                <input class="name-input" type="text" placeholder="Введите номер телефона" id="phone">
+                            </div>
+                        </div>
+                        <div class="rules">
+                            <label>
+                                <input class="check" type="checkbox" id="checkbox">
+                                <span class="fake"></span>
+                            </label>
+                            <div class="rules-container">
+                                <a class="rules-text">Даю согласие на обработку</a>
+                                <a class="rules-text-orange">персональных данных</a>
+                            </div> 
+                        </div>
+                        <button class="feedback-button" id="clearFunction"  onclick="clearFunction()">
+                            Отправить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>         
+        </div>
+    </div>
+    <footer class="footer-taxi" id="contacts">
+        <div class="footer-container">
+            <div class="footer-container-part-m">
+                <div class="footer-container-l contact-text">
+                    Контакты
+                </div>
+                <div class="footer-container-l contact-basetext">
+                    <div class="contact-basetext-content">
+                        г. Уфа, ул. Тестовая, д. 28, стр. 1, офис 205
+                    </div>
+                    <div class="contact-basetext-content">
+                        Время работы офиса: <br> Пн-пт с 10:00 до 19:00 <br>Время работы диспетчерской: <br>с 9:00 до 21:00, без выходных
+                    </div>
+                </div>
+                <div class="footer-container-l contact-links">
+                    <div class="contact-links-phone">+7 (999) 123-45-69</div>
+                    <div class="media">
+                        <div class="social-logo yt"></div>
+                        <div class="social-logo tg"></div>
+                        <div class="social-logo vk"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container-part-s">
+                <div class="footer-container-m contact-text">
+                    <div class="footer-container-m-text">
+                        © 2023 ТКМ парк такси
+                    </div>
+                </div>
+                <div class="footer-container-m contact-basetext">
+                    <div class="footer-container-m-text">
+                        Политика конфиденциальности
+                    </div>
+                </div>
+                <div class="footer-container-m contact-links">
+                    <div class="footer-container-m-text">
+                        Разработка сайта — Дизайнер
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="code.js"></script>
 </html>

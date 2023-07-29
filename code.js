@@ -54,3 +54,15 @@ function calculateCost() {
 }
 
 calculateCost();
+
+
+const nameInput = document.getElementById('name');
+const phoneInput = document.getElementById('phone');
+const checkbox = document.getElementById('checkbox');
+
+function clearFunction() {
+    if (checkbox.checked){
+        nameInput.value = '';
+        phoneInput.value = '';
+    }
+}
